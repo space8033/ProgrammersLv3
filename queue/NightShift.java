@@ -11,7 +11,6 @@ public class NightShift {
         }
 
         for(int i = 0; i < n; i ++) {
-
             queue.add(queue.poll() - 1);
         }
 
